@@ -1,7 +1,7 @@
-/**/.classpath
-/**/.project
-/**/.settings/
-/**/target/
-/**/logs/
-/**/*.iml
-.idea/
+.classpath
+.project
+.settings/
+target/
+logs/
+/**/*.jpg
+test-output/
