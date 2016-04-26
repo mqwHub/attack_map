@@ -30,10 +30,10 @@
 			<bean class="org.springframework.http.converter.StringHttpMessageConverter" />
 			<bean
 				class="org.springframework.http.converter.ByteArrayHttpMessageConverter" />
-			<bean
+<!-- 			<bean
 				class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
 				<property name="objectMapper" ref="customObjectMapper" />
-			</bean>
+			</bean> -->
 		</mvc:message-converters>
 	</mvc:annotation-driven>
 	
@@ -67,7 +67,7 @@
 	
 	
 	<!-- 定义无Controller的path<->view直接映射 -->
-	<mvc:view-controller path="/" view-name="redirect:${web.view.index}"/>
+	<!-- <mvc:view-controller path="/" view-name="redirect:${web.view.index}"/> -->
 	
 
 	
