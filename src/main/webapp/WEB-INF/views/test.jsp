@@ -7,10 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%-- <jsp:forward page ="/WEB-INF/views/test.jsp" ></jsp:forward> --%>
-<jsp:forward page ="/computer" ></jsp:forward>
-
-<h1>测试页面</h1>
+测试跳转
 
 </body>
 </html>
