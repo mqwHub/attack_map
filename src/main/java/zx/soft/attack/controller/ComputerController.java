@@ -20,6 +20,7 @@ public class ComputerController {
 
 	@RequestMapping(value = "", method = RequestMethod.GET)
 	public String getComputer() {
+		System.out.println("hello");
 		return "index";
 	}
 
